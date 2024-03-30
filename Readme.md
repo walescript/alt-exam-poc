@@ -2,7 +2,7 @@
 
 An e-commerce startup has been kind enough to provide us with event level data around orders and customers on their platform, you've been tasked with analying the events data to help them answer a few questions. Kindly read thtough and thoroughly follow the instructions provided in this document and in the `questions` the questions folder has an `answers.sql` file where you're expected to provide the answer to questions in part 2 of the assessment.
 
-Not that you are to first use the information in the table schema diagram to create additional tables to the products table to load your data into Postgres.
+Note that you are to first use the information in the table schema diagram to create additional tables to the products table to load your data into Postgres.
 
 you have been provided with a Docker compose file (WHICH YOU SHOULD NOT MODIFY!!), simply update the `infra_setup/init.sql` and you should be ready to explore the data.
 
