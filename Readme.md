@@ -14,7 +14,7 @@ The data in this assessment primarily captures event grain data around activitit
 4. customers can choose to checkout or abandon their carts
 
 
-![image](assets/archi.png)
+![image](assets/flow.png)
 
 
 ## A possible twist?
@@ -22,7 +22,7 @@ A fair bit of warning is to consider the events table as the most reliable singl
 
 You should rely primarily on the events data to work out actual checkouts vs. what was abandoned.
 
-![image](assets/table-relationship.png)
+![image](assets/relationships.png)
 
 DO NOT CREATE EXPLICIT RELATIONSHIP CONSTRAINTS BETWEEN TABLES WHEN YOU CREATE THEM!! 
 
