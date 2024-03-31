@@ -43,3 +43,14 @@ POSTGRES_HOST: localhost
 ## Managing state file
 
 when you start docker compose a folder `pg_data` will be created in you project root folder, if you ever want to clear state information, simply kill your docker-compose service and delete the file, this will allow docker re-create postgres from scratch again and reload your data in the `./data` folder.
+
+
+## How to submit:
+
+1. Fork this github repo
+2. pull your forked version of the repo locally into your laptop using git clone
+3. create a branch named submission
+4. write SQL statements in `questions/answers.sql` to answer the questions in part two of this assessment
+5. open a pull request against **your own main branch** 
+6. in your pull request provide a detailed description of what you have done
+7. submit a URL to your pull request in the assessment form 
