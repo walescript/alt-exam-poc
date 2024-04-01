@@ -1,6 +1,8 @@
 # Alt school Exams
 
-An e-commerce startup has been kind enough to provide us with event level data around orders and customers on their platform, you've been tasked with analying the events data to help them answer a few questions. Kindly read thtough and thoroughly follow the instructions provided in this document and in the `questions` the questions folder has an `answers.sql` file where you're expected to provide the answer to questions in part 2 of the assessment.
+An e-commerce startup has been kind enough to provide us with event level data around orders and customers on their platform, you've been tasked with analyzing the events data to help them answer a few questions. Kindly read through and thoroughly follow the instructions provided in this document and the readme file in the `questions` Folder.
+
+The questions folder has an `answers.sql` file where you're expected to provide the answer to questions in part 2 of the assessment.
 
 Note that you are to first use the information in the table schema diagram to create additional tables to the products table to load your data into Postgres.
 
@@ -30,7 +32,7 @@ for example, if you have two table customers and orders where orders have a cust
 
 ## How to spin up the server
 
-simply run `docker-compose up` in the project root folder and it should start the postgres service and then you can connect to the database using this credential:
+simply run `docker-compose up` in the project root folder and it should start the postgres service and then you can connect to the database via DBEAVER using this credential:
 
 ```bash
 POSTGRES_USER: alt_school_user
