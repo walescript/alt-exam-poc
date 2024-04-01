@@ -1,6 +1,6 @@
 # Alt school Data Engineering second semester exams
 
-**Warning**: Please be sure to read the readme.md file at the root of the project folder before starting!! remeber do not enforce referential intergrity in your table DDL statements!!
+**Warning**: Please be sure to read the readme.md file at the root of the project folder before starting!! remeber do not enforce referential intergrity in your table DDL statements!! Also be advised to spend some time really understanding data in the events table before attmepting the questions as the dataset was designed to be a tasking one to work with. Good luck!!
 
 ## Part 1
 
